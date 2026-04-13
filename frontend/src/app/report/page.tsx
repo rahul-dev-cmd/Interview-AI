@@ -149,7 +149,7 @@ function ReportContent() {
 
       const { messages, config } = JSON.parse(storedData);
 
-      const response = await fetch("http://localhost:8000/api/report", {
+      const response = await fetch("https://interview-ai-avsg.onrender.com/api/report", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages, config }),

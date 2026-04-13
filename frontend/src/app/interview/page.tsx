@@ -517,7 +517,7 @@ Start by warmly greeting the candidate, making them comfortable, and then asking
     };
 
     try {
-      const response = await fetch("http://localhost:8000/api/chat", {
+      const response = await fetch("https://interview-ai-avsg.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -582,7 +582,7 @@ Start by warmly greeting the candidate, making them comfortable, and then asking
     }
 
     try {
-      const response = await fetch("http://localhost:8000/api/chat", {
+      const response = await fetch("https://interview-ai-avsg.onrender.com/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
