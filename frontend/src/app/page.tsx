@@ -66,7 +66,7 @@ const container = {
 
 const item = {
   hidden: { opacity: 0, y: 30 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" as const } },
 };
 
 /* ──────────────────────────────── */
@@ -302,7 +302,7 @@ export default function HomePage() {
         >
           <div className="absolute inset-0 bg-gradient-to-br from-accent/10 to-transparent pointer-events-none" />
           <div className="relative z-10">
-            <span className="text-3xl mb-4 block">🚀</span>
+            <span className="text-3xl mb-4 block"></span>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Ready to <span className="gradient-text">Level Up</span>?
             </h2>
