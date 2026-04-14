@@ -1,22 +1,22 @@
-# InterviewAI 🤖
+# InterviewAI 
 
 > AI-powered adaptive interview practice platform that simulates real tech interviews, coaches you in real time, and generates detailed performance reports.
 
 ---
 
-## 🎯 What Is InterviewAI?
+##  What Is InterviewAI?
 
 InterviewAI helps software engineers and students **practice technical interviews** in a realistic, pressure-free environment. You configure your interview (role, difficulty, topic), chat with an AI interviewer, and receive an instant coaching report — all in your browser.
 
 **Why it's useful:**
-- 🧠 Adaptive questions that follow your answers, just like a real interview
-- ⚡ Instant feedback after every response — no waiting days for results
-- 📊 End-of-session performance report covering communication, accuracy, and confidence
-- 🔁 Unlimited practice — same tech, different questions every time
+-  Adaptive questions that follow your answers, just like a real interview
+-  Instant feedback after every response — no waiting days for results
+-  End-of-session performance report covering communication, accuracy, and confidence
+-  Unlimited practice — same tech, different questions every time
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                                      |
 |------------|-------------------------------------------------|
@@ -26,7 +26,7 @@ InterviewAI helps software engineers and students **practice technical interview
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -63,7 +63,7 @@ Start the backend server:
 python main.py
 ```
 
-✅ Backend runs at `http://localhost:8000`
+ Backend runs at `http://localhost:8000`
 
 ---
 
@@ -77,7 +77,7 @@ npm install
 npm run dev
 ```
 
-✅ Frontend runs at `http://localhost:3000`
+Frontend runs at `http://localhost:3000`
 
 ---
 
@@ -89,7 +89,7 @@ npm run dev
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 interviewai/
@@ -116,7 +116,7 @@ interviewai/
 
 ---
 
-## 🗺️ App Flow
+##  App Flow
 
 ```
 Landing Page → Interview Setup → Live Interview Chat → Performance Report
@@ -131,11 +131,11 @@ Landing Page → Interview Setup → Live Interview Chat → Performance Report
 |----------------------|-----------------|------------------------------------|
 | `OPENROUTER_API_KEY` | `backend/.env`  | Your OpenRouter API key            |
 
-> ⚠️ Never commit your `.env` file. It's already in `.gitignore`.
+>  Never commit your `.env` file. It's already in `.gitignore`.
 
 ---
 
-## 🛣️ Roadmap
+##  Roadmap
 
 - [ ] Voice input support
 - [ ] Resume-based question generation
@@ -144,7 +144,7 @@ Landing Page → Interview Setup → Live Interview Chat → Performance Report
 
 ---
 
-## 👤 Author
+##  Author
 
 Built with ❤️ by **Rahul Dev**
 [GitHub](https://github.com/rahul-dev-cmd) · [LinkedIn](https://linkedin.com/in/rahul-s-dev)
