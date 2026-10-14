@@ -1,4 +1,4 @@
-fastapi>=0.115.0
+fastapi==9d34ad0ee8a0dfbbcce06f76c2d5d851085024fc
 uvicorn[standard]>=0.34.0
 httpx>=0.28.0
 python-dotenv>=1.0.0
